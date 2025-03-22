@@ -56,30 +56,30 @@ alternative dimension while traveling with Spaceship Titanic.
 
 
 ## Requirements for the project
-To install all necessary libraries use `pip install -r requirements.txt`
+To install all necessary libraries use - `pip install -r requirements.txt`
 
 ## Launch ML model locally
 Install Docker and Java
 
-Build Docker image
+Build Docker image -
 `docker build -t spaceship-titanic-app .`
 
-Run container
+Run container -
 `docker run -p 5000:5000 spaceship-titanic-app`
 
-Main page
+Main page -
 `http://localhost:5000`
 
-For predictions run
+For predictions run -
 `python predict.py`
 
-Predictions will be saved in save folder where test.csv was placed
+Predictions will be saved in save folder where test.csv was placed -
 `data/api_predictions.csv`
 
-To check running containers
+To check running containers -
 `docker ps`
 
-To stop docker container
+To stop docker container -
 `docker stop 'container_id'`
 
 ## SpaceShip Titanic Dataset 
